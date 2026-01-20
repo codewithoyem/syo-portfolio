@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Mail, Rocket, Code, Database, Cloud } from 'lucide-react';
+import sundayOlanisimi from "../assets/images/sunday_olanisimi.png";
 
 export const Home: React.FC = () => {
   return (
-    <div className="relative z-10 flex-grow flex flex-col justify-center pt-24 pb-12 px-4 md:px-8">
+    <div className={`relative z-10 flex-grow flex flex-col justify-center pt-24 pb-12 px-4 md:px-8  bg-[url(${sundayOlanisimi})] bg-no-repeat bg-top bg-contain`}>
       <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         {/* Text Content (Left) */}
         <div className="lg:col-span-7 flex flex-col gap-6 lg:gap-8 pt-10 lg:pt-0">
