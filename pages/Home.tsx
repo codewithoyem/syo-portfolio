@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Mail, Rocket, Code, Database, Cloud } from 'lucide-react';
-import sundayOlanisimi from "../assets/images/sunday_olanisimi.png";
+import sundayOlanisimi from "../assets/images/sunday_olanisimi_2.png";
 
 export const Home: React.FC = () => {
   return (
