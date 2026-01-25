@@ -21,7 +21,7 @@ export const Navbar: React.FC = () => {
           <div className="w-8 h-8 rounded bg-gradient-to-br from-primary to-blue-600 flex items-center justify-center text-background-dark font-bold leading-none group-hover:scale-105 transition-transform duration-300">
             <Terminal size={18} />
           </div>
-          <span className="font-bold text-lg tracking-tight text-white hidden sm:block">SYO<span className="text-primary">.dev</span></span>
+          <span className="font-bold text-lg tracking-tight text-white hidden sm:block">Prince<span className="text-primary">Codex</span></span>
         </Link>
 
         {/* Desktop Nav */}

@@ -17,10 +17,10 @@ export const Home: React.FC = () => {
           
           {/* Headline */}
           <div className="flex flex-col gap-4">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight text-white">
-              I design and build <br/>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-cyan-300 to-blue-500">scalable digital products</span> <br/>
-              that solve real problems.
+            <h1 className="text-4xl md:text-6xl lg:text-6xl font-bold leading-[1.1] tracking-tight text-white">
+              I Design and Build <br/>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-cyan-300 to-blue-500">Websites and Apps that solve real Business Problems </span> <br/>
+              and Grow with your Business.
             </h1>
             <div className="text-xl md:text-2xl text-gray-400 font-light mt-2 overflow-hidden">
               <span className="block">Hi, I'm <strong className="text-white font-semibold">Sunday Yemi Olanisimi</strong>.</span>
@@ -29,7 +29,7 @@ export const Home: React.FC = () => {
           
           {/* Description */}
           <p className="text-base md:text-lg text-gray-400 max-w-xl leading-relaxed">
-            Bridging the gap between engineering and design. I craft high-performance web applications with a focus on user experience and architectural scalability.
+            I help businesses turn ideas into fast, user-friendly applications built to grow.
           </p>
           
           {/* Actions */}
@@ -94,7 +94,7 @@ export const Home: React.FC = () => {
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                 />
                 <div className="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/80 to-transparent z-20">
-                  <p className="text-xs font-bold text-white">Sunday Yemi O.</p>
+                  <p className="text-xs font-bold text-white">Sunday Y. Olanisimi (Prince Codex)</p>
                   <p className="text-[10px] text-primary">Status: Online</p>
                 </div>
               </div>

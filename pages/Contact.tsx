@@ -5,19 +5,19 @@ import { Course } from '../types';
 const socialLinks = [
   {
     icon: <Github size={20} />,
-    href: "https://github.com/syodeveloper",
+    href: "https://github.com/princecodex200",
   },
   {
     icon: <Linkedin size={20} />,
-    href: "https://linkedin.com/in/syodeveloper",
+    href: "https://linkedin.com/in/princecodex200",
   },
   {
     icon: <Twitter size={20} />,
-    href: "https://twitter.com/syodeveloper",
+    href: "https://twitter.com/princecodex200",
   },
   {
     icon: <Youtube size={20} />,
-    href: "https://youtube.com/@syodev",
+    href: "https://youtube.com/@princecodex200",
   },
 ];
 
